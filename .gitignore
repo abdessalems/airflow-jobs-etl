@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.coverage
+htmlcov/
+
+# OS & editors
+.DS_Store
+.vscode/
+.idea/
+
+# Airflow
+logs/
+airflow/.env
+airflow/.airflow_env
+airflow/**/*__pycache__/
+dags/__pycache__/
+
+# Docker
+.env
+*.log
